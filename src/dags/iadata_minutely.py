@@ -7,12 +7,9 @@ from airflow import DAG, models
 from airflow.operators.python import PythonOperator
 from airflow.utils.email import send_email_smtp
 
-
 def send_available_appointment_alert(available_dates, is_test_mode=False):
     from twilio.rest import Client
-
     state = "--TEST--" if is_test_mode else ""
-
     #MAIL
     send_email_smtp(to=os.getenv("AIRFLOW__SMTP__SMTP_MAIL_FROM"),
                     subject=f"{state}IDATA Randevusu bulundu!",
