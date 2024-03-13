@@ -1,4 +1,6 @@
-## IDATA Randevu Bulucu (İtalya, Almanya)
+## IDATA Randevu Bulucu (İtalya, Almanya)(Deprecated)
+
+#### !!!ÖNEMLİ NOT!!! -> IDATA crawl'ı engelemek için koyduğu CloudFlare ve Vize randevu sistemlerinin değişmesi sebebiyle kullanım dışı kalmıştır. Crawl ile ilgilenen arkadaşlara örnek olması için repo'yu silmiyorum, Sevgiler...
 
 Idata Schengen Vize başvurusu için otomatik olarak açık randevu slotlarını kontrol eder. SendGrid ve Twilio hesaplarına bağlamanız durumunda, açık bir randevu slotu bulduğunda size Email ve SMS gönderir.
 
